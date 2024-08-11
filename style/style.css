@@ -1,0 +1,44 @@
+/* font add here  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: miama;
+    src: url(../font/Miama.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common color variable  */
+
+:root{
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgba(255, 255, 255, 0.5);
+    --btn-color : rgb(230, 83, 60);
+    --bg-color :  rgb(0, 0, 0);
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    /* background: rgb(0, 0, 0); */
+}
+
+/* common style css  */
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.common-margin{
+    margin-bottom: 6rem;
+}
+
