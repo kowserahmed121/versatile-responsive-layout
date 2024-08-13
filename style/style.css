@@ -41,13 +41,14 @@ p {
   color: var(--secondary-color);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
 }
 
 h2 {
   color: var(--primary-color);
   font-size: 3rem;
   font-weight: 900;
+  margin-bottom: 1rem;
 }
 
 .text-align {
@@ -55,7 +56,7 @@ h2 {
 }
 
 .common-margin {
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .maima-font {
@@ -198,4 +199,22 @@ header {
 .circle-div i {
   font-size: 2rem;
   color: var(--btn-color);
+}
+
+/* habit container section  */
+.habit-img-container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.habit-img-content img{
+  border-radius: 50%;
+}
+
+.habit-img-content h4 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  margin: 10px 0;
 }
