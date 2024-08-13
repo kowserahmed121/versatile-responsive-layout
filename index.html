@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Versatile Layout Design</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- header section code  -->
@@ -19,15 +20,28 @@
             </ul>
         </nav>
         <!-- hero section container here  -->
-        <section class="hero-section container">
+        <section class="hero-section container display-flex">
             <div class="hero-content">
-                <h1>Get body in shape & stay healthy</h1>
+                <h1>Get body in <span class="maima-font"> shape </span> & stay healthy</h1>
                 <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
-                <button>Join Club Now!</button>
-                <button>Download App</button>
+                <button class="primary-btn">Join Club Now!</button>
+                <button class="sec-btn">Download App</button>
             </div>
             <div class="hero-img">
                 <img src="./images/hero-img.png" alt="hero img">
+                <div class="hero-img-div">
+                    <div class="img-content">
+                        <h3>500+</h3>
+                        <p>Free Workout Videos</p>
+                    </div>  
+                    <div class="img-content-sec">
+                        <div class="circle-div"><i class="fa-solid fa-circle-play"></i></div>
+                        <div class="img-content-cir">
+                            <h3>350+</h3>
+                            <p>Free Workout Videos</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </header>

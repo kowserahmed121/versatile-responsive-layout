@@ -44,16 +44,24 @@ p {
   line-height: 1.5rem;
 }
 
+h2 {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
 .text-align {
   text-align: center;
 }
 
 .common-margin {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .maima-font {
   font-family: miama;
+  font-size: 6.4rem;
+  font-weight: 500;
 }
 
 /* nav section css here  */
@@ -74,7 +82,7 @@ header {
 
 .nav-container h1 {
   color: var(--btn-color);
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 800;
   font-style: italic;
 }
@@ -104,3 +112,90 @@ header {
 }
 
 /* hero section container  */
+.hero-section {
+  justify-content: space-between;
+  gap: 200px;
+}
+
+.hero-content h1 {
+  color: var(--primary-color);
+  font-size: 5.4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  line-height: 120%;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.primary-btn {
+  color: var(--primary-color);
+  background-color: var(--btn-color);
+  padding: 1rem;
+  font-weight: 600;
+  width: 40%;
+  font-size: 1.2rem;
+  border-radius: 2.6rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.sec-btn {
+  color: var(--primary-color);
+  background-color: transparent;
+  padding: 1rem;
+  font-weight: 600;
+  width: 40%;
+  font-size: 1.2rem;
+  border-radius: 2.6rem;
+  border: 1px solid var(--primary-color);
+}
+
+.img-content,
+.img-content-sec {
+  border-radius: 1rem;
+  backdrop-filter: blur(1.2rem);
+  background: rgba(255, 255, 255, 0.1);
+  width: 60%;
+  text-align: start;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+}
+
+.img-content p,
+.img-content-sec p {
+  font-size: 0.8rem;
+}
+
+.img-content h3,
+.img-content-sec h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.hero-img {
+  position: relative;
+  margin-right: 50px;
+}
+
+.img-content {
+  position: absolute;
+  top: 175px;
+  right: -87px;
+}
+
+.img-content-sec {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: 76px;
+  left: -140px;
+}
+
+.circle-div i {
+  font-size: 2rem;
+  color: var(--btn-color);
+}
