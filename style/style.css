@@ -273,9 +273,14 @@ header {
   margin-bottom: 1.4rem;
 }
 
-.bmi-table {
-  width: 50%;
+.bmi-calculate{
+  gap: 5rem;
 }
+
+.bmi-table {
+  width: 70%;
+}
+
 .bmi-table-from {
   border-collapse: collapse;
   margin-top: 4rem;
@@ -478,6 +483,7 @@ footer{
 
   .primary-btn, .sec-btn{
     width: 45%;
+    font-size: 0.8rem;
   }
   .hero-section{
     gap: 4rem;
@@ -498,7 +504,6 @@ footer{
   width: 50%;
 }
 
-
 .img-content {
   top: 97px;
   right: -51px;
@@ -516,7 +521,6 @@ footer{
 
   .extra-run-img img {
     width: 100%;
-    border-radius: 1.2rem;
     object-fit: cover;
     object-position: none;
   }
@@ -524,6 +528,11 @@ footer{
 
   .extra-run-img {
     width: 100%;
+  }
+
+  .extra-run-container{
+    gap: 3rem;
+    padding: 2rem;
   }
   
   .extra-run-content {
@@ -533,7 +542,7 @@ footer{
   .extra-run-content .primary-btn {
     width: 100%;
   }
-  
+
   .grid-template-img ,
   .our-price-content{
     grid-template-columns: repeat(1, 1fr);
@@ -547,5 +556,25 @@ footer{
 
   .bmi-table {
     width: 100%;
+  }
+
+  .bmi-content{
+    margin-left: 30px;
+  }
+
+  .fitness-option{
+    text-align: start;
+  }
+
+  .bmi-calculate{
+    gap: 3rem;
+  }
+
+  .our-price-content{
+    gap: 0.5rem;
+  }
+
+  .our-price{
+    margin-top: 2rem;
   }
 }
