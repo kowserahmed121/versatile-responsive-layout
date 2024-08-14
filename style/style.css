@@ -273,7 +273,7 @@ header {
   margin-bottom: 1.4rem;
 }
 
-.bmi-calculate{
+.bmi-calculate {
   gap: 5rem;
 }
 
@@ -321,7 +321,7 @@ select {
   color: var(--secondary-color);
 }
 
-.input-full-fil{
+.input-full-fil {
   display: grid;
   grid-template-columns: 1fr;
   margin-bottom: 2rem;
@@ -329,7 +329,7 @@ select {
 
 ::placeholder {
   color: var(--secondary-color);
-  opacity: 1; 
+  opacity: 1;
 }
 
 /* our team img container  */
@@ -384,7 +384,7 @@ select {
   margin-top: 4rem;
 }
 
-.our-price h4{
+.our-price h4 {
   color: var(--primary-color);
   font-size: 2rem;
   font-weight: 600;
@@ -402,7 +402,7 @@ select {
 }
 /* footer container section  */
 
-footer{
+footer {
   padding: 4rem 0;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -426,46 +426,45 @@ footer{
   margin-bottom: 16px;
 }
 
-.fitness-option ul{
+.fitness-option ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.fitness-option ul li{
+.fitness-option ul li {
   list-style: none;
 }
 
-.fitness-option li a{
+.fitness-option li a {
   color: var(--secondary-color);
   text-decoration: none;
 }
 
-.hr-footer{
+.hr-footer {
   text-align: center;
   color: var(--secondary-color);
   margin-top: 3rem;
 }
 
-.hr-footer p{
+.hr-footer p {
   margin-top: 20px;
 }
 
-.hr-footer hr{
+.hr-footer hr {
   border: 1px solid var(--secondary-color);
 }
 
 /* resposive for mobile area  */
 
-@media screen  and (max-width:576px){
-
+@media screen and (max-width: 576px) {
   p {
     font-size: 0.8rem;
   }
-  
+
   h2 {
     font-size: 2.4rem;
   }
-  .nav-option{
+  .nav-option {
     display: none;
   }
 
@@ -481,18 +480,19 @@ footer{
     flex-direction: column;
   }
 
-  .primary-btn, .sec-btn{
+  .primary-btn,
+  .sec-btn {
     width: 45%;
     font-size: 0.8rem;
   }
-  .hero-section{
+  .hero-section {
     gap: 4rem;
   }
 
   .hero-content h1 {
     font-size: 3.4rem;
   }
-  
+
   .hero-img img {
     width: 100%;
     margin-right: 0px;
@@ -500,41 +500,40 @@ footer{
   }
 
   .img-content,
-.img-content-sec {
-  width: 50%;
-}
+  .img-content-sec {
+    width: 50%;
+  }
 
-.img-content {
-  top: 97px;
-  right: -51px;
-}
+  .img-content {
+    top: 97px;
+    right: -51px;
+  }
 
-.img-content-sec {
-  bottom: 80px;
-  left: 6px;
-}
+  .img-content-sec {
+    bottom: 80px;
+    left: 6px;
+  }
 
-.img-content h3,
-.img-content-sec h3 {
-  font-size: 1.4rem;
-}
+  .img-content h3,
+  .img-content-sec h3 {
+    font-size: 1.4rem;
+  }
 
   .extra-run-img img {
     width: 100%;
     object-fit: cover;
     object-position: none;
   }
-  
 
   .extra-run-img {
     width: 100%;
   }
 
-  .extra-run-container{
+  .extra-run-container {
     gap: 3rem;
     padding: 2rem;
   }
-  
+
   .extra-run-content {
     width: 100%;
   }
@@ -543,11 +542,10 @@ footer{
     width: 100%;
   }
 
-  .grid-template-img ,
-  .our-price-content{
+  .grid-template-img,
+  .our-price-content {
     grid-template-columns: repeat(1, 1fr);
   }
-
 
   .bmi-calculate {
     width: 90%;
@@ -558,23 +556,34 @@ footer{
     width: 100%;
   }
 
-  .bmi-content{
+  .bmi-content {
     margin-left: 30px;
   }
 
-  .fitness-option{
+  .fitness-option {
     text-align: start;
   }
 
-  .bmi-calculate{
+  .bmi-calculate {
     gap: 3rem;
   }
 
-  .our-price-content{
+  .our-price-content {
     gap: 0.5rem;
   }
 
-  .our-price{
+  .our-price {
     margin-top: 2rem;
   }
+
+  .footer-container {
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .fitness-option {
+    margin-bottom: 2rem;
+  }
 }
+
+/* end mobile responsive area  */
