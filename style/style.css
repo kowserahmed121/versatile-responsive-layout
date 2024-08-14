@@ -449,3 +449,103 @@ footer{
   border: 1px solid var(--secondary-color);
 }
 
+/* resposive for mobile area  */
+
+@media screen  and (max-width:576px){
+
+  p {
+    font-size: 0.8rem;
+  }
+  
+  h2 {
+    font-size: 2.4rem;
+  }
+  .nav-option{
+    display: none;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .hero-section,
+  .habit-img-container,
+  .extra-run-container,
+  .bmi-calculate,
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .primary-btn, .sec-btn{
+    width: 45%;
+  }
+  .hero-section{
+    gap: 4rem;
+  }
+
+  .hero-content h1 {
+    font-size: 3.4rem;
+  }
+  
+  .hero-img img {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+
+  .img-content,
+.img-content-sec {
+  width: 50%;
+}
+
+
+.img-content {
+  top: 97px;
+  right: -51px;
+}
+
+.img-content-sec {
+  bottom: 80px;
+  left: 6px;
+}
+
+.img-content h3,
+.img-content-sec h3 {
+  font-size: 1.4rem;
+}
+
+  .extra-run-img img {
+    width: 100%;
+    border-radius: 1.2rem;
+    object-fit: cover;
+    object-position: none;
+  }
+  
+
+  .extra-run-img {
+    width: 100%;
+  }
+  
+  .extra-run-content {
+    width: 100%;
+  }
+
+  .extra-run-content .primary-btn {
+    width: 100%;
+  }
+  
+  .grid-template-img ,
+  .our-price-content{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .bmi-calculate {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .bmi-table {
+    width: 100%;
+  }
+}
