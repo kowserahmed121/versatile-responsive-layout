@@ -113,6 +113,12 @@ header {
   font-weight: 400;
 }
 
+.icon {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  display: none;
+}
+
 /* hero section container  */
 .hero-section {
   justify-content: space-between;
@@ -319,5 +325,127 @@ select {
 ::placeholder {
   color: var(--secondary-color);
   opacity: 1; 
+}
+
+/* our team img container  */
+
+.img-div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.grid-template-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 80px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-bottom: 6rem;
+}
+
+.img-text h4 {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.img-div {
+  position: relative;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 14px;
+  left: 23px;
+}
+
+/* our price container section  */
+.our-price-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3rem;
+}
+
+.our-price {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4rem 0;
+  border-radius: 0.5rem;
+  margin-top: 4rem;
+}
+
+.our-price h4{
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.our-price span {
+  color: var(--btn-color);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.our-price .sec-btn {
+  border: 2px solid var(--btn-color);
+}
+/* footer container section  */
+
+footer{
+  padding: 4rem 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-container {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fitness-name h1 {
+  color: var(--btn-color);
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.fitness-option h4 {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.fitness-option ul{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.fitness-option ul li{
+  list-style: none;
+}
+
+.fitness-option li a{
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.hr-footer{
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: 3rem;
+}
+
+.hr-footer p{
+  margin-top: 20px;
+}
+
+.hr-footer hr{
+  border: 1px solid var(--secondary-color);
 }
 
