@@ -129,12 +129,11 @@ header {
   color: var(--primary-color);
   font-size: 5.4rem;
   font-weight: 900;
-  margin-bottom: 20px;
-  line-height: 120%;
+  margin-bottom: 1.2rem;
 }
 
 .hero-content p {
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
 }
 
 .primary-btn {
@@ -185,7 +184,7 @@ header {
 
 .hero-img {
   position: relative;
-  margin-right: 50px;
+  margin-right: 3.2rem;
 }
 
 .img-content {
